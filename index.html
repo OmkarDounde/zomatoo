@@ -1,0 +1,227 @@
+<html>
+
+<head>
+    <script src="home.js"></script>
+    <title>Zomato</title>
+    <link rel="icon" href="https://i.ibb.co/SsHPZ2X/Zomato-logo.png">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/c4338603d0.js" crossorigin="anonymous"></script>
+</head>
+<!--This Is header Section -->
+<link rel="stylesheet" href="home.css" type="text/css">
+<header class="header">
+    <div>
+        <h1 id="om">Zomato</h1>
+        <button id="home"><i class="fa-solid fa-house"></i> &nbsp; Home</button>
+    </div>
+    <div id="omi">
+        <button id="register">Register</button>
+
+    </div>
+    <div>
+        <button id="login"><i class="fa-solid fa-right-to-bracket"></i>&nbsp; Login</button>
+    </div>
+
+</header>
+
+<body style="background-color:rgb(234, 191, 191)">
+    <section>
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner ">
+                <div class="carousel-item active slidedive" data-bs-interval="10000">
+                    <img src="https://i.ibb.co/K5D17tf/slide-2.jpg" class="d-block w-100" alt="Omkar">
+                </div>
+                <div class="carousel-item slidedive" data-bs-interval="2000">
+                    <img src="https://i.ibb.co/SyFCGsL/slide-1.jpg" class="d-block w-100" alt="Omkar">
+                </div>
+                <div class="carousel-item slidedive">
+                    <img src="https://i.ibb.co/j5x7z1V/slide-3.jpg" class="d-block w-100" alt="Omkar">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="search">
+            <div id="site">
+                <div id="circle">
+                    <span>L!</span>
+                </div>
+                <div id="showline">
+                    Find The Best Restaurant Near you
+                </div>
+                <div class="drop">
+                    <select id="city" onChange="getRest()">
+                        <option>----SELECT YOUR CITY----</option>
+                        <option>Omkar1</option>
+                        <option>Omkar2</option>
+                        <option>Omkar3</option>
+                        <option>Omkar4</option>
+                        <option>Omkar5</option>
+                    </select>
+                    <select id="restSelects" >
+                        <option>----SELECT YOUR RESTAURANTS----</option>
+                        <option>Omkar1</option>
+                        <option>Omkar2</option>
+                        <option>Omkar3</option>
+                        <option>Omkar4</option>
+                        <option>Omkar5</option>
+                    </select>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--This Is quicksearch-->
+    <section style="margin-top: 25%;">
+        <div class="quicksearch">
+            <span id="quickheding">Quick Search</span>
+            <span id="subheading">One Stop Solution For Your Hunger.</span>
+            <div class="main">
+                <div id="container">
+                    <div id="right">
+                        <img src="https://i.ibb.co/V2HjtCM/Sweet1.jpg" alt="Sweet Dish">
+                    </div>
+                    <div id="left">
+                        <div id="heding">
+                            <a href="Listing.html" target="_blank" style="text-decoration: none; color:white;">Sweet
+                                Dishesh</a>
+                        </div>
+                        <div id="description">
+                            One Stop Solution For Your Hunger. Healthy Samosa At convienient rate at your door step.
+                        </div>
+                    </div>
+                </div>
+                <div id="container">
+                    <div id="right">
+                        <img src="https://i.ibb.co/Q9KHpWs/chat.jpg" alt="Samosa">
+                    </div>
+                    <div id="left">
+                        <div id="heding">
+                            <a href="Listing.html" target="_blank" style="text-decoration: none; color:white;">Chat</a>
+                        </div>
+                        <div id="description">
+                            One Stop Solution For Your Hunger. Healthy Chat At convienient rate at your door step.
+                        </div>
+                    </div>
+                </div>
+                <div id="container">
+                    <div id="right">
+                        <img src="https://i.ibb.co/dDvvXN4/Chole.jpg" alt="Samosa">
+                    </div>
+                    <div id="left">
+                        <div id="heding">
+                            <a href="Listing.html" target="_blank" style="text-decoration: none; color:white;">Chole</a>
+                        </div>
+                        <div id="description">
+                            One Stop Solution For Your Hunger. Healthy Chole At convienient rate at your door step.
+                        </div>
+                    </div>
+                </div>
+                <div id="container">
+                    <div id="right">
+                        <img src="https://i.ibb.co/MC6Fk6b/Chikan.jpg" alt="Samosa">
+                    </div>
+                    <div id="left">
+                        <div id="heding">
+                            <a href="Listing.html" target="_blank"
+                                style="text-decoration: none; color:white;">Chikan</a>
+                        </div>
+                        <div id="description">
+                            One Stop Solution For Your Hunger. Healthy Chikan At convienient rate at your door step.
+                        </div>
+                    </div>
+                </div>
+                <div id="container">
+                    <div id="right">
+                        <img src="https://i.ibb.co/ZYg6DQ2/mutton.jpg" alt="Samosa">
+                    </div>
+                    <div id="left">
+                        <div id="heding">
+                            <a href="Listing.html" target="_blank"
+                                style="text-decoration: none; color:white;">Mutton</a>
+                        </div>
+                        <div id="description">
+                            One Stop Solution For Your Hunger. Healthy Mutton At convienient rate at your door step.
+                        </div>
+                    </div>
+                </div>
+                <div id="container">
+                    <div id="right">
+                        <img src="https://i.ibb.co/123YvGr/biryani.jpg" alt="Samosa">
+                    </div>
+                    <div id="left">
+                        <div id="heding">
+                            <a href="Listing.html" target="_blank"
+                                style="text-decoration: none; color:white;">Biryani</a>
+                        </div>
+                        <div id="description">
+                            One Stop Solution For Your Hunger. Healthy Biryani At convienient rate at your door step.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </section>
+    
+    <!--This Is footer-->
+    <footer>
+        <hr>
+        <p id="foot"> &copy; Omkar Design</p>
+        <div id="main">
+            <div class="som">
+                <p>About Us</p>
+                <p>Contact Us</p>
+            </div>
+            <div class="som">
+                <p>About Us</p>
+                <p>Contact Us</p>
+            </div>
+            <div class="som nobar">
+                <p>About Us</p>
+                <p>Contact Us</p>
+            </div>
+        </div>
+        <hr>
+        <div class="rac">
+            <a href="https://www.linkedin.com/" target="_blank"><img src="https://i.ibb.co/61LQ0GN/link.png" alt="Linkedin"
+                    class="rat"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="https://i.ibb.co/BTpDyFv/Facebook-Logo.png" alt="Linkedin"
+                    class="rat"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="https://i.ibb.co/k52Jj55/youtube.png" alt="Linkedin"
+                    class="rat"></a>
+        </div>
+    </footer>
+<script> window.onload = getcity() </script>
+</body>
+
+
+</html>

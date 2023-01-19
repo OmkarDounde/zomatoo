@@ -1,0 +1,104 @@
+header{
+    height: 50px;
+    width: 100%;
+    background-color: #805146;
+}
+#om{
+    color: white;
+    float: left;
+    margin-top: 0.7%;
+    margin-left: 2%;
+}
+#home{
+    height: 30px;
+    width: 5%;
+    float: left;
+    margin-top: 1%;
+    margin-left: 1%;
+    background-color: rgb(229, 237, 231);
+}
+#login{
+    height: 30px;
+    width: 5%;
+    float: right;
+    margin-top: 1%;
+    background-color: rgb(14, 163, 54);
+}
+#register{
+    height: 30px;
+    width: 5%;
+    float: right;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color: rgb(104, 227, 59);
+
+}
+
+#mainstructure{
+    height: 500px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+#image{
+    height: 300px;
+    width: 30%;
+    border: 5px groove#57576a;
+    margin-left: 2%;
+    float: left;
+}
+#image>img{
+    height: 300px;
+    width: 100%;
+}
+#detailes{
+    height: 500px;
+    width: 50%;
+    margin-left: 5%;
+    margin-top: -2%;
+    float: left;
+}
+.starclass{
+    color: rgb(67, 226, 27);
+
+}
+.starclass1{
+    color: white;
+}
+.figur_contain{
+    width: 100%;
+    display:inline-block;
+}
+figure{
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+figure img{
+    height: 100px;
+    width: 80px;
+    float: left;
+}
+footer{
+    width: 100%;
+    background-color: #805146;
+    color: white;
+    text-align: center;
+}
+#foot{
+    font-size: 20px;
+}
+.som{
+    height: 50px;
+    width: 30%;
+    border-right: 2px solid white;
+    display: inline-block;
+    font-size: 12px;
+}
+.nobar{
+    border: none;
+}
+.rat{
+    height: 40px;
+    width: 40px;}
